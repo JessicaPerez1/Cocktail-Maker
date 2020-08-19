@@ -14,7 +14,10 @@ app.use(express.static("public"));
 //ROUTES
 
 //CONNECT MODELS
-//mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/custommethods", { useNewUrlParser: true });
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/cocktailMaker",
+  { useNewUrlParser: true }
+);
 // const db = mongojs(databaseUrl, collections);
 
 //LISTENER
