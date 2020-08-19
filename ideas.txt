@@ -1,0 +1,19 @@
+User stories:
+a user can create a cocktail so that they will remember it in the future
+- pick liquor
+- picl mixers
+name the cocktail
+
+Models
+- cocktail
+  - name
+  - ingredients
+    - ingredient name
+    - amount
+  //- steps
+- ingredients
+  - type (liquor, mixer or garnish)
+  - name
+-steps 
+  - description
+  - position
